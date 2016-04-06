@@ -23,7 +23,7 @@ services:
 build:
   pre_ci_boot:
     image_name: drydock/u14php7all
-    image_tag: prod
+    image_tag: tip
     pull: true
     
   ci:
