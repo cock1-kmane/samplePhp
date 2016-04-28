@@ -13,8 +13,8 @@ build:
     - php --version    
 
   post_ci:
-    - docker build -t=shiphitchcock1/betaci_php_pipeline:$BRANCH.$BUILD_NUMBER .
-    - docker push shiphitchcock1/betaci_php_pipeline:$BRANCH.$BUILD_NUMBER
+    - docker build -t=shiphitchcock1/php_pipeline:$BRANCH.$BUILD_NUMBER .
+    - docker push shiphitchcock1/php_pipeline:$BRANCH.$BUILD_NUMBER
 
 integrations:
   hub: 
