@@ -10,4 +10,4 @@ php:
   
 build:
   ci:
-    - php --version
+    - php --version   
