@@ -28,5 +28,6 @@ build:
     pull: true
     
   ci:
-    - php --version
+    - php --version 
+    
   
